@@ -6,7 +6,7 @@
 /*   By: puttsche <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/09 03:52:06 by puttsche          #+#    #+#             */
-/*   Updated: 2017/01/10 05:33:07 by puttsche         ###   ########.fr       */
+/*   Updated: 2017/01/10 07:19:08 by puttsche         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,6 @@ char	*ft_strtrim(char const *s);
 char	**ft_strsplit(char const *s, char c);
 char	*ft_itoa(int c);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
+char	*ft_strjoindelprev(char *s1, char *s2);
 
 #endif
